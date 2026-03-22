@@ -26,7 +26,7 @@ class Config(object):
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
     PROCESS_MAX_TIMEOUT = 3600
-    DEF_WATER_MARK_FILE = "@UploaderXNTBot"
+    DEF_WATER_MARK_FILE = "@TheOrviX"
 
     ADMIN = set(
         int(x) for x in environ.get("ADMIN", "").split()
@@ -54,10 +54,10 @@ class Config(object):
     TRUE_OR_FALSE = os.environ.get("TRUE_OR_FALSE", "").lower() == "true"
 
     # Shortlink settings
-    SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "")
-    SHORT_API = environ.get("SHORT_API", "")
+    SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "vplink.in")
+    SHORT_API = environ.get("SHORT_API", "b4c55b5464676e8a7bbf9e8903b00a289debbec3")
 
     # Verification video link
-    VERIFICATION = os.environ.get("VERIFICATION", "")
+    VERIFICATION = os.environ.get("VERIFICATION", "https://t.me/TheOrviX")
 
     
