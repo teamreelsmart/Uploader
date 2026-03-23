@@ -66,7 +66,7 @@ async def button(bot, update):
                 return
             except Exception:
                 await update.message.edit(
-                    text="Something Went Wrong. Contact My [Support Group](https://t.me/NT_BOTS_SUPPORT)",
+                    text="Something Went Wrong. Contact My [Support Group](https://t.me/+6Pw3G0sBFVpkMmY1)",
                     disable_web_page_preview=True
                 )
                 return
